@@ -8,5 +8,5 @@
 r = float(input("Enter the radius of the circle : "))
 cArea= 3.14*(r**2)
 cCircumference = 2*3.14*r
-print("Circle area :{area}\nCircle circumference :{circumfrence}".format(area=cArea,circumfrence=cCircumference))
+print(f"Circle area :{cArea}\nCircle circumference :{cCircumference}")
 input()
